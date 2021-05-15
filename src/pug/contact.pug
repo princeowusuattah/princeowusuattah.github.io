@@ -1,0 +1,45 @@
+extends layout/head
+block title
+	title Blunes – Contact
+block content
+	body#contact
+		.wrap
+			include layout/navigation
+			main
+				.spacer
+					.container
+						.row
+							.col-lg-8.offset-lg-2.col-md-10.offset-md-1
+								.page-intro.mar-top-lg
+									h1.page-title Let's Talk
+						.row
+							.col-md-10.offset-md-1
+								form#contact-form
+									p
+										| Hola, my name is 
+										input#contact-name(type="text" name="contact-name" placeholder="Name")
+										| . I want to order from you 
+										span.select
+											select#contact-service
+												option(value="") -
+												option(value="Branding") Branding
+												option(value="Print") Print
+												option(value="Typography") Typography
+												option(value="Art Direction") Art Direction
+										| service. I am looking to stay around a budget of 
+										span.select
+											select#contact-budget
+												option(value="") -
+												option(value="$10,000") $10,000
+												option(value="$20,000") $20,000
+												option(value="$30,000") $30,000
+												option(value="$40,000") $40,000
+										| . You can contact me at
+										input#contact-email(type="text" name="contact-email" placeholder="Email")
+										| to discuss details.
+									.submit-button
+										a#contact-submit(href="#") Send
+									#contact-response
+										p Hey, Amigo! We will contact you later, thanx.
+			include layout/footer
+		include layout/js

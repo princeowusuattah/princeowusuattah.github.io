@@ -1,0 +1,67 @@
+extends layout/head
+block title
+	title Blunes – Project
+block content
+	body#project-2
+		.wrap
+			include layout/navigation
+			main
+				.spacer
+					.container
+						.row
+							.col-md-8.offset-md-2
+								.project-intro.mar-top-lg
+									h1.project-title Partner Pages
+									p.project-description Partner Pages is a magazine full of beautifully curated content, produced annually.
+									ul.project-services
+										li Branding
+										li Art Direction
+						.row
+							.col-md-12
+								.mar-top-lg
+									.project-image
+										img(src="img/project-2/image_1.png" alt="Partner Pages")
+						.project-content.mar-top-md.mar-bot-md
+							.row
+								.col-md-10.offset-md-1
+									p.lead It is written by Xero partners, who write inspiring stories to champion change within the finance and accounting industries. Several thousand units were printed and copies were handed out at Xero’s Australian Roadshows and at events throughout the year. Klim Type Foundry's National 2 is the preliminary typeface.
+				.content-slider
+					.navigation
+						.prev-slide
+						.next-slide
+					.owl-carousel
+						.slide
+							img(src="img/project-2/image_2.png" alt="Partner Pages")
+						.slide
+							img(src="img/project-2/image_3.png" alt="Partner Pages")
+						.slide
+							img(src="img/project-2/image_4.png" alt="Partner Pages")
+				.spacer
+					.container
+						.mar-top-lg
+							.row
+								.col-md-6
+									
+										.project-image
+											img(src="img/project-2/image_5.png" alt="Partner Pages")
+								.col-md-6
+									
+										.project-image
+											img(src="img/project-2/image_6.png" alt="Partner Pages")
+							.row
+								.col-md-6
+									
+										.project-image
+											img(src="img/project-2/image_7.png" alt="Partner Pages")
+								.col-md-6
+									
+										.project-image
+											img(src="img/project-2/image_8.png" alt="Partner Pages")
+						.next-project
+							.row
+								.col-lg-6.col-md-8.offset-lg-3.offset-md-2
+									p Next Project
+									h2
+										a(href="#") Dom Casmurro
+			include layout/footer
+		include layout/js

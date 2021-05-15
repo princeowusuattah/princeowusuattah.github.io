@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1377 1123">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-13 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        stroke-dasharray: 20;
+        opacity: 0.446;
+      }
+
+      .cls-1, .cls-11 {
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #61aac1;
+      }
+
+      .cls-10, .cls-3, .cls-6, .cls-8 {
+        opacity: 0.285;
+      }
+
+      .cls-4 {
+        fill: #363636;
+        font-size: 30px;
+        font-family: SFCompactText-Semibold, SF Compact Text;
+        font-weight: 600;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #e9b600;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #00d684;
+      }
+
+      .cls-10, .cls-9 {
+        fill: #b23c5d;
+      }
+
+      .cls-11 {
+        stroke: #bebebe;
+      }
+
+      .cls-12 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-368 -259)">
+    <g id="Ellipse_12" data-name="Ellipse 12" class="cls-1" transform="translate(643 427)">
+      <circle class="cls-12" cx="406.5" cy="406.5" r="406.5"/>
+      <circle class="cls-13" cx="406.5" cy="406.5" r="405"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(603 -43)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-2" cx="96.5" cy="96.5" r="96.5" transform="translate(350 374)"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="116.5" cy="116.5" r="116.5" transform="translate(330 354)"/>
+      <text id="Define" class="cls-4" transform="translate(400 482)"><tspan x="0" y="0">Define</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(587 129)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-5" cx="96.5" cy="96.5" r="96.5" transform="translate(705 374)"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-6" cx="116.5" cy="116.5" r="116.5" transform="translate(685 354)"/>
+      <text id="Ideate" class="cls-4" transform="translate(757 482)"><tspan x="0" y="0">Ideate</tspan></text>
+    </g>
+    <circle id="Ellipse_5-2" data-name="Ellipse 5" class="cls-7" cx="96.5" cy="96.5" r="96.5" transform="translate(614 503)"/>
+    <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-8" cx="116.5" cy="116.5" r="116.5" transform="translate(594 483)"/>
+    <text id="Evaluate" class="cls-4" transform="translate(649 611)"><tspan x="0" y="0">Evaluate</tspan></text>
+    <g id="Group_3" data-name="Group 3" transform="translate(249 520)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-5" cx="96.5" cy="96.5" r="96.5" transform="translate(1060 374)"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-6" cx="116.5" cy="116.5" r="116.5" transform="translate(1040 354)"/>
+      <text id="Prototype" class="cls-4" transform="translate(1086 482)"><tspan x="0" y="0">Prototype</tspan></text>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(-481 743)">
+      <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-9" cx="96.5" cy="96.5" r="96.5" transform="translate(1415 374)"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-10" cx="116.5" cy="116.5" r="116.5" transform="translate(1395 354)"/>
+      <text id="Build" class="cls-4" transform="translate(1475 482)"><tspan x="0" y="0">Build</tspan></text>
+    </g>
+    <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-7" cx="96.5" cy="96.5" r="96.5" transform="translate(559 894)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-8" cx="116.5" cy="116.5" r="116.5" transform="translate(539 874)"/>
+    <text id="Test" class="cls-4" transform="translate(626 1002)"><tspan x="0" y="0">Test</tspan></text>
+    <text id="Problem_Identification_" data-name="Problem Identification " class="cls-4" transform="translate(893 288)"><tspan x="0" y="0">Problem Identification </tspan></text>
+    <text id="Specification_Development" data-name="Specification 
+Development" class="cls-4" transform="translate(1548 512)"><tspan x="0" y="0">Specification </tspan><tspan x="0" y="36">Development</tspan></text>
+    <text id="Conceptual_Design" data-name="Conceptual
+Design" class="cls-4" transform="translate(1548 653)"><tspan x="0" y="0">Conceptual</tspan><tspan x="0" y="36">Design</tspan></text>
+    <text id="Detailed_Design" data-name="Detailed 
+Design" class="cls-4" transform="translate(1566 1002)"><tspan x="0" y="0">Detailed </tspan><tspan x="0" y="36">Design</tspan></text>
+    <text id="Production" class="cls-4" transform="translate(952 1375)"><tspan x="0" y="0">Production</tspan></text>
+    <text id="Usability_Test" data-name="Usability
+Test" class="cls-4" transform="translate(368 1002)"><tspan x="0" y="0">Usability</tspan><tspan x="0" y="36">Test</tspan></text>
+    <text id="Design_Evaluation" data-name="Design
+Evaluation" class="cls-4" transform="translate(401 584)"><tspan x="0" y="0">Design</tspan><tspan x="0" y="36">Evaluation</tspan></text>
+    <path id="Path_7" data-name="Path 7" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="matrix(0.921, 0.391, -0.391, 0.921, 3125.881, 925.355)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="matrix(0.035, 0.999, -0.999, 0.035, 1789.573, 2715.179)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="translate(120.822 2678.419) rotate(137)"/>
+    <path id="Path_10" data-name="Path 10" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="matrix(-0.951, -0.309, 0.309, -0.951, -1019.748, 919.241)"/>
+    <path id="Path_11" data-name="Path 11" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="translate(668.898 -1129.946) rotate(-82)"/>
+    <path id="Path_12" data-name="Path 12" class="cls-11" d="M-2258,454.874l13.465-3.249v14.92" transform="matrix(0.819, -0.574, 0.574, 0.819, 2229.009, -889.03)"/>
+  </g>
+</svg>

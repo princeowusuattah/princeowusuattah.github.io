@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="363.5" height="14" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="11.999" height="20.5" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-iPhone_6_7_8_18">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_6_7_8_18" data-name="iPhone 6/7/8 – 18" clip-path="url(#clip-iPhone_6_7_8_18)">
+    <rect width="375" height="667" fill="#fff"/>
+    <path id="Path_125" data-name="Path 125" d="M-992,617.412h375.342" transform="translate(992 -521)" fill="none" stroke="#cbcddc" stroke-width="1" opacity="0.505"/>
+    <g id="notify" transform="translate(343 48)" clip-path="url(#clip-path)">
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(0 2)" fill="#fff" stroke="#a5a4bf" stroke-miterlimit="10" stroke-width="2">
+        <rect width="19" height="18" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="17" height="16" rx="3" fill="none"/>
+      </g>
+      <g id="Rectangle_6_Copy" data-name="Rectangle 6 Copy" transform="translate(6)" fill="#fff" stroke="#a5a4bf" stroke-miterlimit="10" stroke-width="2">
+        <rect width="14" height="13" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="12" height="11" rx="3" fill="none"/>
+      </g>
+    </g>
+    <text id="Progress" transform="translate(147 64)" font-size="17" font-family="SFProText-Semibold, SF Pro Text" font-weight="600"><tspan x="0" y="0">Progress</tspan></text>
+    <g id="Light_Status_Bar" data-name="Light Status Bar" transform="translate(6 3.5)" clip-path="url(#clip-path-2)">
+      <g id="Right_Detail" data-name="Right Detail" transform="translate(290 -0.5)">
+        <g id="Battery" transform="translate(11)">
+          <g id="Battery_Icon" data-name="Battery Icon" transform="translate(36 1)">
+            <g id="Battery_Outline" data-name="Battery Outline" transform="translate(0 0.5)" fill="none" stroke-miterlimit="10" opacity="0.47">
+              <path d="M0,2.5A2.5,2.5,0,0,1,2.5,0h19A2.5,2.5,0,0,1,24,2.5V9a2.5,2.5,0,0,1-2.5,2.5H2.5A2.5,2.5,0,0,1,0,9Z" stroke="none"/>
+              <path d="M 2.5 1 C 1.67289924621582 1 1 1.672900199890137 1 2.5 L 1 9 C 1 9.827099800109863 1.67289924621582 10.5 2.5 10.5 L 20.14764022827148 10.5 L 21.5 10.5 C 22.32710075378418 10.5 23 9.827099800109863 23 9 L 23 2.5 C 23 1.672900199890137 22.32710075378418 1 21.5 1 L 2.5 1 M 2.5 0 L 21.5 0 C 22.88071060180664 0 24 1.119290351867676 24 2.5 L 24 9 C 24 10.38070964813232 22.88071060180664 11.5 21.5 11.5 L 20.14764022827148 11.5 L 0 11.5 L 2.5 11.5 C 1.119289398193359 11.5 0 10.38070964813232 0 9 L 0 2.5 C 0 1.119290351867676 1.119289398193359 0 2.5 0 Z" stroke="none"/>
+            </g>
+            <path id="Battery_Connector" data-name="Battery Connector" d="M0,0A2.251,2.251,0,0,1,1.5,2.122,2.252,2.252,0,0,1,0,4.244Z" transform="translate(25 4.128)" opacity="0.58"/>
+            <rect id="Battery_Fill" data-name="Battery Fill" width="20" height="7.5" rx="1" transform="translate(2 2.5)"/>
+          </g>
+          <text id="_100_" data-name="100%" transform="translate(0 0.5)" fill="#030303" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="2.209" y="11">100%</tspan></text>
+        </g>
+        <path id="bluetooth" d="M3,12V7.249L.75,9.5,0,8.75,2.75,6,0,3.25.75,2.5,3,4.75V0L7,3.5,4.25,6,7,8.5,3,12ZM4,7H4V9.75L5.5,8.459,4,7ZM4,2.37V5L5.5,3.6Z" transform="translate(0.5 1)"/>
+      </g>
+      <text id="Time" transform="translate(181.5 11)" fill="#030303" font-size="12" font-family="SFProText-Semibold, SF Pro Text" font-weight="600"><tspan x="-24.164" y="0">9:41 AM</tspan></text>
+      <g id="Left_Detail" data-name="Left Detail" transform="translate(0 1.5)">
+        <path id="Signal" d="M14.25,10a.75.75,0,0,1-.75-.75V.75A.75.75,0,0,1,14.25,0h1.5a.75.75,0,0,1,.75.75v8.5a.75.75,0,0,1-.75.75Zm-4.5,0A.75.75,0,0,1,9,9.25V2.75A.75.75,0,0,1,9.75,2h1.5A.75.75,0,0,1,12,2.75v6.5a.75.75,0,0,1-.75.75Zm-4.5,0a.75.75,0,0,1-.75-.75V4.75A.751.751,0,0,1,5.25,4h1.5a.751.751,0,0,1,.75.751v4.5a.75.75,0,0,1-.75.75ZM.75,10A.75.75,0,0,1,0,9.25v-3A.75.75,0,0,1,.75,5.5h1.5A.75.75,0,0,1,3,6.25v3a.75.75,0,0,1-.75.75Z"/>
+        <path id="Wifi" d="M4.886,7.377a2.877,2.877,0,0,1,3.246,0L6.509,9ZM6.5,4.62A5.1,5.1,0,0,0,3.276,5.767l-.882-.882a6.364,6.364,0,0,1,8.225,0l-.882.882A5.1,5.1,0,0,0,6.5,4.62ZM0,2.494a9.733,9.733,0,0,1,13.012,0l-.885.885a8.484,8.484,0,0,0-11.241,0Z" transform="translate(20.991 0.5)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Chevron" transform="translate(15 47.5)" clip-path="url(#clip-path-3)">
+      <path id="Chevron-2" data-name="Chevron" d="M9.537,20.083.292,10.946a.975.975,0,0,1,0-1.392L9.537.417a1.456,1.456,0,0,1,2.041,0,1.415,1.415,0,0,1,0,2.016L3.669,10.25l7.909,7.815a1.417,1.417,0,0,1,0,2.017,1.456,1.456,0,0,1-2.041,0" fill="#a5a4bf"/>
+    </g>
+    <text id="July" transform="translate(53 156.5)" font-size="24" font-family="SFProText-Semibold, SF Pro Text" font-weight="600"><tspan x="0" y="0">July</tspan></text>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M309.262,40H0V0H309.262a20,20,0,0,1,7.785,38.428A19.876,19.876,0,0,1,309.262,40Z" transform="translate(0 169)" fill="#707070"/>
+    <text id="SMTWTFS" transform="translate(46 193)" fill="#fff" font-size="14" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="0" y="0" letter-spacing="2.377em">SMTWTF</tspan><tspan y="0">S</tspan></text>
+    <text id="August" transform="translate(53 555.5)" font-size="24" font-family="SFProText-Semibold, SF Pro Text" font-weight="600"><tspan x="0" y="0">August</tspan></text>
+    <text id="SMTWTFS-2" data-name="SMTWTFS" transform="translate(46 591.5)" font-size="14" font-family="SFProText-Bold, SF Pro Text" font-weight="700"><tspan x="0" y="0" letter-spacing="2.377em">SMTWTF</tspan><tspan y="0">S</tspan></text>
+    <g id="Group_64" data-name="Group 64" transform="translate(0 21.5)">
+      <text id="_7_8_9" data-name="7 8 9" transform="translate(49 272.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="1.143em"><tspan x="0" y="0">7 8 9</tspan></text>
+      <text id="_10" data-name="10" transform="translate(174 272.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">10</tspan></text>
+      <text id="_11" data-name="11" transform="translate(217 272.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">11</tspan></text>
+      <text id="_12" data-name="12" transform="translate(260 272.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">12</tspan></text>
+      <text id="_13" data-name="13" transform="translate(303 272.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">13</tspan></text>
+    </g>
+    <g id="Group_63" data-name="Group 63" transform="translate(0 35.5)">
+      <text id="_10_copy" data-name="10 copy" transform="translate(48 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">10</tspan></text>
+      <text id="_11_copy" data-name="11 copy" transform="translate(91 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">11</tspan></text>
+      <text id="_12_copy" data-name="12 copy" transform="translate(134 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">12</tspan></text>
+      <text id="_13_copy" data-name="13 copy" transform="translate(174 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">13</tspan></text>
+      <text id="_14" data-name="14" transform="translate(216 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">14</tspan></text>
+      <text id="_15" data-name="15" transform="translate(259 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">15</tspan></text>
+      <text id="_16" data-name="16" transform="translate(302 308.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">16</tspan></text>
+    </g>
+    <g id="Group_62" data-name="Group 62" transform="translate(0 49.5)">
+      <text id="_17" data-name="17" transform="translate(48 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">17</tspan></text>
+      <text id="_18" data-name="18" transform="translate(91 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">18</tspan></text>
+      <text id="_19" data-name="19" transform="translate(134 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">19</tspan></text>
+      <text id="_20" data-name="20" transform="translate(174 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">20</tspan></text>
+      <text id="_21" data-name="21" transform="translate(216 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">21</tspan></text>
+      <text id="_22" data-name="22" transform="translate(259 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">22</tspan></text>
+      <text id="_23" data-name="23" transform="translate(302 344.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">23</tspan></text>
+    </g>
+    <g id="Group_61" data-name="Group 61" transform="translate(0 63.5)">
+      <text id="_24" data-name="24" transform="translate(49 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">24</tspan></text>
+      <text id="_25" data-name="25" transform="translate(92 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">25</tspan></text>
+      <text id="_26" data-name="26" transform="translate(135 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">26</tspan></text>
+      <text id="_27" data-name="27" transform="translate(175 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">27</tspan></text>
+      <text id="_28" data-name="28" transform="translate(217 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">28</tspan></text>
+      <text id="_29" data-name="29" transform="translate(260 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">29</tspan></text>
+      <text id="_30" data-name="30" transform="translate(303 380.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">30</tspan></text>
+    </g>
+    <g id="Group_66" data-name="Group 66" transform="translate(0 2)">
+      <text id="_1_2_3_4_5_6" data-name="1 2 3 4 5 6" transform="translate(92 493)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="1.1em" opacity="0.1"><tspan x="0" y="0">1 2 3 4 5 6 </tspan></text>
+      <text id="_31" data-name="31" transform="translate(50 493)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500"><tspan x="0" y="0">31</tspan></text>
+    </g>
+    <g id="Group_65" data-name="Group 65" transform="translate(0 2.5)">
+      <text id="_1_2_3_4_5_6-2" data-name="1 2 3 4 5 6" transform="translate(92 241.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500" letter-spacing="1.1em"><tspan x="0" y="0">1 2 3 4 5 6 </tspan></text>
+      <text id="_31_copy" data-name="31 copy" transform="translate(49 241.5)" font-size="14" font-family="SFProText-Medium, SF Pro Text" font-weight="500" opacity="0.101"><tspan x="0" y="0">31</tspan></text>
+    </g>
+  </g>
+</svg>

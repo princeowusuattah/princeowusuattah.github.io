@@ -32,19 +32,38 @@ research to high fidelity visual design and final handoff to developers." />
 
 
 	<style type="text/css">
+
+	@font-face {
+		font-family: ProductSans-Thin;
+		src: url(font/ProductSans-Thin.ttf) format("truetype");
+	}
 		@font-face {
-			font-family: CircularBook;
-			src: url(font/CircularStd-Book.ttf) format("truetype");
+			font-family: ProductSans-Regular;
+			src: url(font/ProductSans-Regular.ttf) format("truetype");
 		}
 
 		@font-face {
-			font-family: CircularMedium;
-			src: url(font/CircularStd-Medium.ttf) format("truetype");
+			font-family: ProductSans-Medium;
+			src: url(font/ProductSans-Medium.ttf) format("truetype");
+		}
+
+		@font-face {
+			font-family: CharterITC;
+			src: url(font/CharterITC-Regu.otf) format("truetype");
+		}
+
+		@font-face {
+			font-family: ProductSans-Light;
+			src: url(font/ProductSans-Light.ttf) format("truetype");
+		}
+
+		body{
+			background-color: #f7f7f7;
 		}
 	</style>
 </head>
 
-<body style="font-family: CircularBook" id="homepage">
+<body style="font-family: ProductSans-Regular" id="homepage">
 	<div class="wrap">
 		<header>
 			<div class="container">
@@ -58,7 +77,6 @@ research to high fidelity visual design and final handoff to developers." />
 								<li><a href="images/Prince_Owusu_Attah_UX_Design_Resume.pdf" target="_blank">Resume</a></li>
 
 								<li><a class="smooth-leave" href="aboutme.html">About me</a></li>
-								<li><a class="smooth-leave" href="contact.html">Let's talk</a></li>
 
 							</ul>
 						</nav><span class="nav-toggle">Menu</span>
@@ -73,9 +91,9 @@ research to high fidelity visual design and final handoff to developers." />
 					<div class="row">
 						<div style="text-align: left;" class="col-lg-12">
 							<div class="section-title">
-								<h2 style="color: #000000; font-family: CircularMedium; font-size: 3.2em; font-weight: 600"><span style="color: #4859f9; font-weight: 700;">UX & Data Visualization Designer</span><br>who enjoys Enterprise <span style="color: #4859f9; font-weight: 700;">Product</span> Design</h2>
-								<p style="font-size: 25px; font-weight: 400;">A versatile designer and researcher with 4 years experience creating delightful & impactful human interactions across all parts of the product life cycle.<br> <br> <br>
-									<span style="color: #485af9 ;font-weight: 600;font-size: 1.2em; "> Selected Works </span>
+								<h2 style="color: #4859f9; font-family: ProductSans-Medium; font-size: 3.2em; font-weight: 800">Hello, I'm Prince. <span style="color: #3b3d3b; font-weight: 600;font-size: 1em"> <br>UX & Data Visualization Designer </span></h2>
+								<p style="font-size: 18px;color: #3b3d3b; font-family: 'Inter', sans-serif;">I'm a multidisciplinary designer with over 4 years experience creating delightful &  <br> impactful  human interactions across all parts of the product life cycle.<br> <br> <br>
+									<span style="color: #485af9 ;font-weight: 600;font-size: 1.2em; ">  </span>
 									<!-- Having had the opportunity of working on multiple consumer and enterprise applications,I’ve a developed broad skilled set that makes me solution agnostics.	-->
 								</p>
 							</div>
@@ -92,96 +110,99 @@ research to high fidelity visual design and final handoff to developers." />
 
 
 
-					<!--		<div class="row">
-						<p style="font-size: 25px; font-weight: 400;">Previously <a href="https://www.meditrak.life/“>@MediTrak </a> <a href="https://www.liquidnet.com/“>@Liquidnet </a> <a href="https://www.getmiles.com/“>@Miles </a> <a href="https://www.purdue.edu/gradschool/fellowship/funding-resources-for-students/index.html“>
-						<mark style="background-color: #485af9; color:white;">who enjoys</mark>
-							<div class="works-filters">Selected Works: <a id="myworks"></a>	 <span class="open-filters">All Projects</span>
+			<div class="row">
+						<!--<p style="font-size: 25px; font-weight: 400;">Previously <a href="https://www.meditrak.life/“>@MediTrak </a> <a href="https://www.liquidnet.com/“>@Liquidnet </a> <a href="https://www.getmiles.com/“>@Miles </a> <a href="https://www.purdue.edu/gradschool/fellowship/funding-resources-for-students/index.html“>
+						<mark style="background-color: #485af9; color:white;">who enjoys</mark>-->
+							<div class="works-filters">&nbsp; Selected Works: <a id="myworks"></a>	 <span class="open-filters">All Projects</span>
 								<div class="fullscreen-filters">
 									<div class="close-filters">Close</div>
 									<ul>
 										<li class="current" data-group="[&quot;*&quot;]">All Projects<span></span></li>
 										<li data-group="[&quot;UX / UI Design&quot;]">UX / UI Design<span></span></li>
-										<li data-group="[&quot;Visual Design&quot;]">Visual Design<span></span></li>
+										<!--<li data-group="[&quot;Visual Design&quot;]">Visual Design<span></span></li>-->
 										<li data-group="[&quot;Data Visualization&quot;]">Data Visualization<span></span></li>
-										<li data-group="[&quot;Industrial Design&quot;]">Industrial Design<span></span></li>
+										<!--<li data-group="[&quot;Industrial Design&quot;]">Industrial Design<span></span></li>-->
 									</ul>
 								</div>
 							</div>
 
-					</div> -->
+					</div>
+
+
+
 
 
 
 					<div class="row">
-						<div class="col-md-12">
-							<div class="works-grid">
-								<div class="works-gutter"></div>
-								<a class="work-item" href="https://princeowusuattah.medium.com/meditrak-life-patient-vital-signs-dashboard-design-e9e3c673f9cf" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/meditrak.jpg" alt="Catalogue — Voice &amp; Vote">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">MediTrak Vital Signs Dashboard</h3>
-										<ul class="work-services">
-											<li>UX Consulting | UX Design | Prototyping </li>
-										</ul>
-									</div>
-								</a>
-								<a class="work-item" href="https://princeowusuattah.medium.com/redesigning-the-miles-refer-a-friend-aa7bc5fed1d0" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/miles.png" alt="halfex">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">Miles Refer-a-friend</h3>
-										<ul class="work-services">
-											<li>Co op | UX Design | User research </li>
-										</ul>
-									</div>
-								</a><a class="work-item" href="https://princeowusuattah.medium.com/designing-for-user-engagement-liquidnet-4457cb5af6a9" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/lnet.png" alt="Catalogue — Voice &amp; Vote">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">Liquidnet Mobile</h3>
-										<ul class="work-services">
-											<li>Internship | UX Design | Prototyping </li>
-										</ul>
-									</div>
-								</a><a class="work-item" href="https://medium.com/prince-owusu-attah/constellationbuider-high-level-situation-awareness-and-team-assembly-for-cyber-security-events-c8402336d5a9" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/constellation.png" alt="Lnet">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">ConstellationBuilder — Cyberthreat Analytics Dashboard</h3>
-										<ul class="work-services">
-											<li> IEEE VAST | Data Visualization | UX design </li>
-										</ul>
-									</div>
-								</a>
-								<a class="work-item" href="https://medium.com/prince-owusu-attah/40years-of-ebola-visualizing-ebola-virus-historical-timeline-8b5f6b499c5" data-groups="[&quot;Data Visualisation&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/ebolawork.jpg" alt="ebola">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">Ebola Timeline Visualization</h3>
-										<ul class="work-services">
-											<li>ICAD Conference | Data Visualization | Development </li>
-										</ul>
-									</div>
-								</a><a class="work-item" href="https://medium.com/prince-owusu-attah/0-1-second-data-visualization-d9c618e5a3f7" data-groups="[&quot;Data Visualisation&quot;]" target="_blank">
-									<div class="work-image">
-										<div class="icon-arrow"></div><img src="img/works/onesecondbanner.png" alt="Lnet">
-									</div>
-									<div class="work-description">
-										<h3 class="work-title">0.1 Seconds - Data visualization</h3>
-										<ul class="work-services">
-											<li>Purdue DataVis | Data Visualization | Poster design</li>
-										</ul>
-									</div>
-								</a>
+							<div class="col-md-12">
+								<div class="works-grid">
+									<div class="works-gutter"></div>
+									<a class="work-item" href="meditrak.html" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/meditrak.png" alt="Catalogue — Voice &amp; Vote">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">MediTrak Vital Signs Dashboard</h3>
+											<ul class="work-services">
+												<li>UX Consulting | UX Design | Prototyping </li>
+											</ul>
+										</div>
+									</a>
+									<a class="work-item" href="miles.html" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/miles1.png" alt="halfex">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">Miles Refer-a-friend</h3>
+											<ul class="work-services">
+												<li>Co op | UX Design | User research </li>
+											</ul>
+										</div>
+									</a><a class="work-item" href="#" data-groups="[&quot;UX / UI Design&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/lnet.png" alt="Catalogue — Voice &amp; Vote">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">Liquidnet Investment Analytics</h3>
+											<ul class="work-services">
+												<li>Internship | UX Design | Data Visualization </li>
+											</ul>
+										</div>
+									</a><a class="work-item" href="constellationbuilder.html" data-groups="[&quot;Data Visualization&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/constellation.png" alt="Lnet">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">ConstellationBuilder Dashboard</h3>
+											<ul class="work-services">
+												<li> IEEE VAST | Data Visualization | Award Winner </li>
+											</ul>
+										</div>
+									</a>
+									<a class="work-item" href="ebola.html" data-groups="[&quot;Data Visualization&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/ebolawork.jpg" alt="ebola">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">Ebola Timeline Visualization</h3>
+											<ul class="work-services">
+												<li>ICAD Conference | Data Visualization | Live Dashboard</li>
+											</ul>
+										</div>
+									</a><a class="work-item" href="onesecond.html" data-groups="[&quot;Data Visualization&quot;]" target="_blank">
+										<div class="work-image">
+											<div class="icon-arrow"></div><img style="border-radius: 20px;" src="img/works/onesecondbanner1.png" alt="Lnet">
+										</div>
+										<div class="work-description">
+											<h3 class="work-title">0.1 Seconds - Data visualization</h3>
+											<ul class="work-services">
+												<li>Purdue DataVis | Data Visualization | Static design</li>
+											</ul>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
 
 				</div>
@@ -195,7 +216,7 @@ research to high fidelity visual design and final handoff to developers." />
 						<div class="footer-contacts">
 							<div class="wrap">
 								<div class="address">
-									<p>© All Rights Reserved</p>
+									<p><b>Let's connect and grab a coffee ☕</b></p>
 								</div><a class="email" href="mailto:poattah@gmail.com">poattah@gmail.com</a>
 							</div>
 						</div>
@@ -234,7 +255,7 @@ research to high fidelity visual design and final handoff to developers." />
 
 
 	<!-- Your customer chat code -->
-	<div class="fb-customerchat" attribution=setup_tool page_id="265813410731015" theme_color="#079cff" logged_in_greeting="Hi! Welcome to my site, how can I help you?" logged_out_greeting="Thanks for visiting my website. Kindly reach out to me later for any questions">
+	<div class="fb-customerchat" attribution=setup_tool page_id="265813410731015" theme_color="#485af9" logged_in_greeting="Hi! Welcome to my site, how can I help you?" logged_out_greeting="Thanks for visiting my website. Kindly reach out to me later for any questions">
 	</div>
 </body>
 

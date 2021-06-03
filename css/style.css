@@ -28,26 +28,44 @@ font-family: 'Work Sans', sans-serif;
 font-family: 'Amiri', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Karla', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
 
 
     */
 
     @font-face {
-    	font-family: CircularBook;
-    	src: url(font/CircularStd-Book.ttf) format("truetype");
-    }
+  		font-family: ProductSans-Thin;
+  		src: url(font/ProductSans-Thin.ttf) format("truetype");
+  	}
+  		@font-face {
+  			font-family: ProductSans-Regular;
+  			src: url(font/ProductSans-Regular.ttf) format("truetype");
+  		}
 
-    @font-face {
-    	font-family: CircularMedium;
-    	src: url(font/CircularStd-Medium.ttf) format("truetype");
-    }
+  		@font-face {
+  			font-family: ProductSans-Medium;
+  			src: url(font/ProductSans-Medium.ttf) format("truetype");
+  		}
+
+  		@font-face {
+  			font-family: CharterITC;
+  			src: url(font/CharterITC-Regu.otf) format("truetype");
+  		}
+
+  		@font-face {
+  			font-family: ProductSans-Light;
+  			src: url(font/ProductSans-Light.ttf) format("truetype");
+  		}
+
 
 @import url("https://fonts.googleapis.com/css?family=Amiri:400,400i,700i|Lato:300,400,700|Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700|Oswald:300,400,700|Raleway:400,500,600|Roboto:400,700|Work+Sans:400,500,600,700,800|Karla:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Rubik:400,400i,500,500i,700|Rambla:400,400i,700,700i|Ubuntu:400,500,700|Quicksand:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
 
 /* 01. Common */
 
 body {
-font-family: CircularBook;
+font-family: 'Inter', sans-serif;
   font-style: normal;
     margin: 0;
 }
@@ -67,9 +85,9 @@ font-family: CircularBook;
 }
 
 h2, h3, h4, h5, h6 {
-      font-family: CircularMedium;
+      font-family: ProductSans-Medium;
     font-weight: 200;
-    color: #000
+    color: #3b3d3b
     margin: 0;
     line-height: 1.3;
 }
@@ -79,19 +97,21 @@ h2, h3, h4, h5, h6 {
 
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 64px;
-    letter-spacing: -1.8px;
+    font-family: ProductSans-Medium;
+    font-size: 60px;
+    letter-spacing: 0px;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 50px;
     letter-spacing: -1px;
 }
 
 h3 {
     font-size: 32px;
     letter-spacing: -0.6px;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.6em;
 }
 
 h4 {
@@ -110,14 +130,14 @@ h6 {
 }
 
 p {
-    color: #000
+    color: #3b3d3b
     font-size: 24px;
-    line-height: 35px;
+    line-height: 24px;
+    text-transform: "uppercase";
 }
 
 a {
-    color: #000000;
-    border-bottom: 2px solid rgba(0, 15, 255, .32);
+    color: #3b3d3b;
     text-decoration: none;
     transition: 200ms border-color ease-in-out, 200ms color ease-in-out;
 }
@@ -128,8 +148,8 @@ a:hover {
 
 ul, ol {
     font-size: 24px;
-    line-height: 38px;
-    color: #3a3b42;
+    line-height: 30px;
+    color: #5b6166;
     padding: 0 0 0 22px;
 }
 
@@ -312,8 +332,8 @@ main {
 }
 
 .page-content p {
-    font-size: 18px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .page-content p.lead {
@@ -443,7 +463,7 @@ main {
 
 .form-field label {
     display: inline-block;
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 20px;
     font-weight: 800;
     letter-spacing: -0.2px;
@@ -540,7 +560,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #f7f7f7;
     z-index: 999;
     transition: 200ms opacity ease-in, 200ms -webkit-transform ease-in;
     transition: 200ms transform ease-in, 200ms opacity ease-in;
@@ -573,10 +593,14 @@ header nav ul li {
     line-height: 1.2;
 }
 
+.backview {
+  text-decoration: none;
+}
+
 header nav ul li a, header nav ul li span {
     display: block;
     position: relative;
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 18px;
     font-weight: 200;
     letter-spacing: -0.2px;
@@ -764,7 +788,7 @@ header .nav-toggle {
     position: relative;
     float: right;
     margin-top: 24px;
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: -0.2px;
@@ -845,7 +869,7 @@ footer .social-links {
 /* 05. Works */
 
 .works .works-filters {
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 22px;
     letter-spacing: -0.2px;
     color: #272838;
@@ -1038,6 +1062,7 @@ footer .social-links {
     background-color: #485af9;
     transition: 300ms opacity ease-in-out;
     opacity: 0;
+    border-radius: 20px;
 }
 
 .works .work-item .icon-arrow {
@@ -1139,7 +1164,7 @@ footer .social-links {
 
 .works.columns-2 .work-item {
     width: 46.4%;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 
 .works.columns-2 .works-gutter {
@@ -1326,9 +1351,9 @@ font-weight: 500;
 }
 
 .studio-services ul li {
-    font-size: 18px;
-    line-height: 32px;
-    padding: 4px 0;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 0;
 }
 
 .studio-member {
@@ -1728,7 +1753,7 @@ article.single .article-share ul li {
 }
 
 article.single .article-share ul li a {
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 22px;
     font-weight: 800;
     letter-spacing: -0.2px;
@@ -1880,7 +1905,7 @@ article.single .next-article a:hover {
 }
 
 #article-comments .comment-leave form #comment-submit {
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 26px;
     letter-spacing: -0.2px;
     font-weight: 800;
@@ -1977,7 +2002,7 @@ article.single .next-article a:hover {
 
 #contact-form #contact-submit {
     display: inline-block;
-    font-family: CircularBook;
+    font-family: ProductSans-Regular;
     font-size: 48px;
     letter-spacing: -0.6px;
     font-weight: 800;

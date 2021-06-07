@@ -227,43 +227,43 @@ research to high fidelity visual design and final handoff to developers." />
 
 
 	<!-- Messenger Chat Plugin Code -->
-	    <div id="fb-root"></div>
+    <div id="fb-root"></div>
 
-	    <!-- Your Chat Plugin code -->
-	    <div id="fb-customer-chat" class="fb-customerchat">
-	    </div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-	    <script>
-	      var chatbox = document.getElementById('fb-customer-chat');
-	      chatbox.setAttribute("page_id", "265813410731015");
-	      chatbox.setAttribute("attribution", "page_inbox");
-	      window.fbAsyncInit = function() {
-	        FB.init({
-	          xfbml            : true,
-	          version          : 'v10.0'
-	        });
-	      };
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "265813410731015");
+      chatbox.setAttribute("attribution", "page_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
 
-	      (function(d, s, id) {
-	        var js, fjs = d.getElementsByTagName(s)[0];
-	        if (d.getElementById(id)) return;
-	        js = d.createElement(s); js.id = id;
-	        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-	        fjs.parentNode.insertBefore(js, fjs);
-	      }(document, 'script', 'facebook-jssdk'));
-	    </script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
 	<script>
-			gsap.from('.hero_header',{duration: 1, delay: 0.3, y: 30, opacity: 0, ease: Power4.easeOut})
+			gsap.from('.hero_header',{duration: 1, delay: 0.5, y: 30, opacity: 0, ease: Power4.easeOut})
 			gsap.from('.hero_text',{duration: 1, delay: 0.8, y: 30, opacity: 0, ease: Power4.easeOut})
 			gsap.from('.custom_btn',{duration: 1, delay: 0.5, y: 30, opacity: 0, ease: Power4.easeOut})
 	</script>
 
 
 	<!-- Your customer chat code -->
-	<div class="fb-customerchat" attribution=setup_tool page_id="265813410731015" theme_color="#000000" logged_in_greeting="Hi! Welcome to my site, how can I help you?" logged_out_greeting="Thanks for visiting my website. Kindly reach out to me later for any questions">
-	</div>
+	<!-- <div class="fb-customerchat" attribution=setup_tool page_id="265813410731015" theme_color="#000000" logged_in_greeting="Hi! Welcome to my site, how can I help you?" logged_out_greeting="Thanks for visiting my website. Kindly reach out to me later for any questions">
+	</div> -->
 </body>
 
 </html>

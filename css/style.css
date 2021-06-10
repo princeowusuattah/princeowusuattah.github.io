@@ -131,7 +131,7 @@ h6 {
 
 p {
     color: #3b3d3b
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
     text-transform: "uppercase";
 }
@@ -149,7 +149,7 @@ a:hover {
 ul, ol {
     font-size: 24px;
     line-height: 30px;
-    color: #5b6166;
+    color: #2A384D;
     padding: 0 0 0 22px;
 }
 
@@ -284,7 +284,7 @@ ul, ol {
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 ::-moz-selection {
@@ -332,7 +332,7 @@ main {
 }
 
 .page-content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -555,6 +555,10 @@ main {
 .page-out {
     -webkit-animation-name: page-out;
             animation-name: page-out;
+}
+
+video{
+  outline: none;
 }
 
 /* 02. Header */
@@ -1356,8 +1360,8 @@ font-weight: 500;
 }
 
 .studio-services ul li {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 30px;
     padding: 0px 0;
 }
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sticky Position Example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .placeholder-example {
+      background: lavender;
+      height: 100vh;
+      padding: 1em;
+    }
+
+    .sticky-example {
+      background: cornflowerblue;
+      padding: 1em;
+    }
+
+    .sticky {
+      position: relative;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sticky-example sticky">Sticky</div>
+  <div class="placeholder-example">Placeholder</div>
+</body>
+
+</html>
